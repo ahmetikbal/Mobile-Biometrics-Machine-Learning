@@ -12,6 +12,14 @@ A behavioral biometric authentication system using PIN entry patterns on mobile 
 
 > **Best Model:** SVM with RBF kernel (C=10) achieves the lowest Equal Error Rate (0.02%)
 
+### Model Performance Visualization
+
+![Confusion Matrices Comparison](output/figures/confusion_matrices_comparison.png)
+*Confusion matrices for all three models. Diagonal elements represent correct classifications.*
+
+![Metrics Comparison](output/figures/metrics_comparison.png)
+*Left: Classification metrics (higher is better). Right: Biometric error rates (lower is better).*
+
 ## 📊 Dataset
 
 - **30 users** with **60 PIN entry sessions** each
